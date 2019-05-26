@@ -11,10 +11,9 @@ public class Programa {
 
 	public static void main(String[] args) {
 		
-		Department obj = new Department(1, "Books");
-		
 		SellerDao sellerDao = DaoFactory.CreateSellerDao();
 		
+		System.out.println("-----------Teste 1: Seller findById-----------");
 		Seller seller = sellerDao.findById(3);
 		
 		System.out.println(seller);
