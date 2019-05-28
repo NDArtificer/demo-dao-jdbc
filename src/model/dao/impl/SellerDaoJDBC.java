@@ -62,7 +62,7 @@ public class SellerDaoJDBC implements SellerDao {
 
 	@Override
 	public void update(Seller obj) {
-		// TODO Autry{}to-generated method stub
+		
 		PreparedStatement st = null;
 		try {
 			st = conn.prepareStatement("UPDATE seller "
